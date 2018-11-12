@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="style/main.css" />
+    <title>MD2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                    <div class="hot-news-wrapper">
+                            <div class="hot-news">
+                                <div class="hot-news-container">
+                                    <button class="hot-news__btn">Дизайн</button>
+                                    <button class="hot-news__btn">Новости</button>
+                                    <button class="hot-news__btn">Интернет</button>
+                                    <button class="hot-news__btn">Android</button>
+                                    <button class="hot-news__btn">IOS</button>
+                                    <button class="hot-news__btn">I/O</button>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="nav-left">
+                        <div class="nav__item">
+                            <button class="nav__item-btn menuID">
+                                <i class="nav__item-icon material-icons">menu</i>
+                            </button>
+                        </div>
+                        <div class="nav__item nav__logo">
+                            <h3>Новости</h3>
+                        </div>
+                    </div>
+                    <div class="nav-middle">
+                        <div class="nav-input-wrapper">
+                            <div class="nav__item-btn-input">
+                                <button class="nav__item-btn">
+                                    <i class="nav__item-icon material-icons">search</i>
+                                </button>
+                            </div>
+                            <div class="nav__item nav__item_flexible">
+                                <input class="nav__input" type="text" name="search" id="search">
+                            </div>
+                            <div class="nav__item-btn-input">
+                                <button class="nav__item-btn nav__item-btn-input">
+                                    <i class="nav__item-icon material-icons">clear</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-right">
+                            <div class="nav__item-btn-input search-mini">
+                                    <button class="nav__item-btn">
+                                        <i class="nav__item-icon material-icons">search</i>
+                                    </button>
+                                </div>
+                            <div class="nav__item">
+                                    <button id="hotNews" class="nav__item-btn">
+                                            <i class="nav__item-icon material-icons">whatshot</i>
+                                    </button>
+                            </div>
+                            <div class="nav__item">
+                                    <button class="nav__item-btn">
+                                            <i class="nav__item-icon material-icons">apps</i>
+                                    </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav-mini">
+                <div class="nav-container">
+                        <div class="hot-news-wrapper">
+                                <div class="hot-news">
+                                    <div class="hot-news-container">
+                                        <button class="hot-news__btn">Дизайн</button>
+                                        <button class="hot-news__btn">Новости</button>
+                                        <button class="hot-news__btn">Интернет</button>
+                                        <button class="hot-news__btn">Android</button>
+                                        <button class="hot-news__btn">IOS</button>
+                                        <button class="hot-news__btn">I/O</button>
+                                        <button class="hot-news__btn">Google</button>
+                                        <button class="hot-news__btn">iPhone</button>
+                                        <button class="hot-news__btn">e-Box</button>
+                                        <button class="hot-news__btn">Калина</button>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="nav-left">
+                            <div class="nav__item">
+                                <button class="nav__item-btn menuID">
+                                    <i class="nav__item-icon material-icons">menu</i>
+                                </button>
+                            </div>
+                            <div class="nav__item nav__logo">
+                                <h3>Новости</h3>
+                            </div>
+                        </div>
+                        <div class="nav-middle">
+                            <div class="nav-input-wrapper">
+                                <div class="nav__item-btn-input">
+                                    <button class="nav__item-btn">
+                                        <i class="nav__item-icon material-icons">search</i>
+                                    </button>
+                                </div>
+                                <div class="nav__item nav__item_flexible">
+                                    <input class="nav__input" type="text" name="search" id="search-mini">
+                                </div>
+                                <div class="nav__item-btn-input">
+                                    <button class="nav__item-btn nav__item-btn-input">
+                                        <i class="nav__item-icon material-icons">clear</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-right">
+                                <div class="nav__item-btn-input search">
+                                        <button class="nav__item-btn">
+                                            <i class="nav__item-icon material-icons">search</i>
+                                        </button>
+                                    </div>
+                                <div class="nav__item hot">
+                                        <button id="hotNews" class="nav__item-btn">
+                                                <i class="nav__item-icon material-icons">whatshot</i>
+                                        </button>
+                                </div>
+                                <div class="nav__item">
+                                        <button class="nav__item-btn">
+                                                <i class="nav__item-icon material-icons">apps</i>
+                                        </button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <div class="content">
+        <div class="menu">
+            <div class="menu-wrapper">
+              <a href="#about" class="menu-item menu-item_add">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">add</i>
+                  <div class="menu-item__text">Добавить новость</div>
+                </div>
+              </a>
+              <a href="#about" class="menu-item">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">language</i>
+                  <div class="menu-item__text">Самое главное</div>
+                </div>
+              </a>
+              <a href="#products" class="menu-item">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">_</i>
+                  <!-- room -->
+                  <div class="menu-item__text">Местные новости</div>
+                </div>
+              </a>
+              <a href="#uslugi" class="menu-item">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">_</i>
+                  <!-- subject -->
+                  <div class="menu-item__text">Статьи</div>
+                </div>
+              </a>
+              <hr class="menu-splitter" />
+              <a href="#podpiski" class="menu-item">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">games</i>
+                  <div class="menu-item__text">Выбор категории</div>
+                </div>
+              </a>
+              <hr class="menu-splitter" />
+              <a href="" class="menu-item">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">home</i>
+                  <div class="menu-item__text">Зарегистрироваться</div>
+                </div>
+              </a>
+              <a href="" class="menu-item">
+                <div class="menu-item-wrapper">
+                  <i class="material-icons">_</i>
+                  <div class="menu-item__text">Войти</div>
+                </div>
+              </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script/media.js"></script>
+</body>
+</html>
