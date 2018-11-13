@@ -84,6 +84,9 @@ nav {
   min-width: 48px;
   min-height: 48px;
 
+  max-width: 48px;
+  max-height: 48px;
+
   cursor: pointer;
 
   color: #757575;
