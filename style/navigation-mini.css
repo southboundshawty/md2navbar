@@ -70,12 +70,12 @@
 .nav-mini-top-opened {
   width: 100%;
 
-  /* min-height: 64px; */
-  min-height: min-content;
+  min-height: 64px;
+  /* min-height: min-content; */
 
   justify-content: flex-end;
 
- // background-color: rgb(236, 236, 236);
+  background-color: rgb(236, 236, 236);
 }
 
 .nav-mini-top {
