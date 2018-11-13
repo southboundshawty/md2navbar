@@ -4,7 +4,7 @@
 @import url("navigation.css");
 @import url("media.css");
 @import url("hot-news.css");
-@import url("menu.css");
+@import url("navigation-mini.css");
 
 * {
   padding: 0;
