@@ -129,9 +129,6 @@ nav {
 .nav__input:focus {
   border: 1px solid #eaebee;
 
-  border-left: none;
-  border-right: none;
-
   background-color: #fff;
 }
 
