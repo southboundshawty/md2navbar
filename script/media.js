@@ -1,6 +1,5 @@
 $(window).ready(function() {
   if ($(window).width() <= "480") {
-
   }
 
   $("#search-mini").click(function() {
