@@ -31,6 +31,7 @@
 .nav-mini-footer {
   display: flex;
 
+  flex-flow: nowrap;
   justify-content: flex-end;
 
   width: 100%;
